@@ -53,18 +53,25 @@ header nav ul li a {
 footer {
   background-color: #22211f;
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 footer h1 {
   color: #b59a61;
 }
 
+footer ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 footer ul li a {
   color: #eeeeee;
   padding: 1em;
 }
-
 
 .heart{
   position: fixed;
