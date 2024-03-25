@@ -50,6 +50,43 @@ header nav ul li a {
   width: 100%;
 }
 
+.section-3{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+  gap: 2em;
+}
+
+.section-3 div{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  gap: 1em;
+}
+
+.section-3 div h3{
+  color: red;
+  width: 100%;
+}
+
+.section-3 div p{
+  text-align: left;
+}
+
+.section-3 div p a{
+  text-decoration: underline;
+  color: red;
+}
+.section-3 div img{
+  height: 13em;
+  border-radius: 1em;
+  width: 100%;
+}
+
+
 footer {
   background-color: #22211f;
   padding: 2em;
